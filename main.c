@@ -3,17 +3,15 @@
 
 int main(void) 
 {
-   char c, d;
-   int i, g;
+   int bunja, bunmo;
    
-   printf("enter a character : ");
-   scanf("%c", &c);
+   printf("enter bunja:");
+   scanf("%d", &bunja);
    
-   i = c;
-   d = c + 1;
-   g = d;
+   printf("enter bunmo:");
+   scanf("%d", &bunmo);
    
-   printf("The next character of %c(%i) is %c(%i)", c,i,d,g);
+   printf("The result is %f\n", (float)bunja/bunmo);
    
    system("PAUSE");
    return 0;
